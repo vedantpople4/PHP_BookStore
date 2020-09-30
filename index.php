@@ -72,7 +72,7 @@ if(isset($_POST['submit']))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Books">
-    <meta name="author" content="Shivangi Gupta">
+    
     <title>Online Bookstore</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -81,12 +81,12 @@ if(isset($_POST['submit']))
       .modal-header {background:black;color:black;font-weight:800;}
       .modal-body{font-weight:800;}
       .modal-body ul{list-style:none;}
-      .modal .btn {background:#D67B22;color:#fff;}
+      .modal .btn {background:#D67B22;color:#abf;}
       .modal a{color:#D67B22;}
       .modal-backdrop {position:inherit !important;}
        #login_button,#register_button{background:none;color:#D67B22!important;}       
        #query_button {position:fixed;right:0px;bottom:0px;padding:10px 80px;
-                      background-color:#D67B22;color:#fff;border-color:#f05f40;border-radius:2px;}
+                      background-color:#D67B22;color:#000;border-color:#f05f40;border-radius:2px;}
   	@media(max-width:767px){
         #query_button {padding: 5px 20px;}
   	}
@@ -200,12 +200,26 @@ if(isset($_POST['submit']))
               </form>
           </div>
       </div>
-  </div>
 
-      
-  
+      <div class="container-fluid" id="header">
+          <div class="row">
+              <div class="col-md-3 col-lg-3" id="category">
+                  <div style="background:#D67B22;color:#fff;font-weight:800;border:none;padding:5px;"> The Book Shop </div>
+                  <ul>
+                      <li> <a href="Product.php?value=entrance%20exam"> Entrance Exam </a> </li>
+                      <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
+                      <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
+                      <li> <a href="Product.php?value=Biographies%20and%20Auto%20Biographies"> Biographies & Auto Biographies </a> </li>
+                      <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
+                      <li> <a href="Product.php?value=Regional%20Books"> Regional Books </a> </li>
+                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
+                      <li> <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a> </li>
 
-  <div class="container-fluid text-center" id="new">
+                  </ul>
+              </div>
+              
+          </div>
+    <div class="container-fluid text-center" id="new">
       <div class="row">
           <div class="col-sm-6 col-md-3 col-lg-3">
            <a href="description.php?ID=NEW-1&category=new">

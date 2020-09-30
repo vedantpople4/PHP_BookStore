@@ -36,7 +36,7 @@ if(!isset($_SESSION['user']))
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/logo.jpg" style="width: 118px;margin-top: -7px;margin-left: -10px;"></a>
+          <a class="navbar-brand" href="index.php"><img style="width: 118px;margin-top: -7px;margin-left: -10px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -97,7 +97,7 @@ if(!isset($_SESSION['user']))
     } 
     else   
                   $query = "SELECT * FROM products WHERE Author='$author'";
-                  $result = mysqli_query ($con,$query)or die(mysql_error());
+                  $result = mysqli_query ($con,$query)or die(mysqli_error());
     $i=0;
     echo '<div class="container-fluid" id="books">
         <div class="row">
