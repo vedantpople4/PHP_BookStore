@@ -183,7 +183,7 @@ if(isset($_POST['submit']))
         else
           {   echo' <li> <a href="#" class="btn btn-lg"> Hello ' .$_SESSION['user']. '.</a></li>
                     <li> <a href="cart.php" class="btn btn-lg"> Cart </a> </li>; 
-                    <li> <a href="destroy.php" class="btn btn-lg"> LogOut </a> </li>';
+                    <li> <a href="destroy.php" class="btn btn-lg"> Logout </a> </li>';
                
           }
 ?>
@@ -229,23 +229,49 @@ if(isset($_POST['submit']))
       </div>
   </div>
       <div class="container-fluid" id="header">
-          <div class="row">
-              <div class="col-md-3 col-lg-3" id="category">
-                  <div style="background:#0d7377;color:#fff;font-weight:800;border:none;padding:5px;"> The Book Shop </div>
-                  <ul>
-                      <li> <a href="Product.php?value=entrance%20exam"> Entrance Exam </a> </li>
-                      <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
-                      <li> <a href="Product.php?value=Academic%20and%20Professional"> Academic & Professional </a> </li>
-                      <li> <a href="Product.php?value=Biographies%20and%20Auto%20Biographies"> Biographies & Auto Biographies </a> </li>
-                      <li> <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> </li>
-                      <li> <a href="Product.php?value=Regional%20Books"> Regional Books </a> </li>
-                      <li> <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> </li>
-                      <li> <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a> </li>
-
-                  </ul>
-              </div>
-              
+          
+          <div class="container-fluid text-center" id="new">
+        <div class="row">
+          <div class="col-sm-4 col-md-3 col-lg-3">
+            <a href="Product.php?value=entrance%20exam">
+                Entrance Exam
+            </a>
           </div>
+          
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Literature%20and%20Fiction">
+              Literature & Fiction
+            </a>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Academic%20and%20Professional">
+              Academic and Professional
+            </a>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Biographies%20and%20Auto%20Biographies">Biographies & Auto Biographies</a> 
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Children%20and%20Teens"> Children & Teens </a> 
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Regional%20Books"> Regional Books </a>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Business%20and%20Management"> Business & Management </a> 
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-3">
+          <a href="Product.php?value=Health%20and%20Cooking"> Health and Cooking </a>
+          </div>
+          
+
+          
+      </div>
+  </div>
+
+
+          </div>
+
     <div class="container-fluid text-center" id="new">
       <div class="row">
           <div class="col-sm-6 col-md-3 col-lg-3">
@@ -259,6 +285,21 @@ if(isset($_POST['submit']))
                   Rs 113  &nbsp
                   <span style="text-decoration:line-through;color:#828282;"> 175 </span>
                   <span class="label label-warning">35%</span>
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-sm-6 col-md-3 col-lg-3">
+           <a href="description.php?ID=NEW-3&category=new">
+              <div class="book-block">
+                  <div class="tag">New</div>
+                  <div class="tag-side"><img src="img/tag.png"></div>
+                  <img class="block-center img-responsive" src="img/new/3.png">
+                  <hr>
+                  Indian Family Bussiness Mantras <br>
+                  Rs 400 &nbsp
+                  <span style="text-decoration:line-through;color:#828282;"> 595 </span>
+                  <span class="label label-warning">33%</span>
               </div>
             </a>
           </div>
@@ -276,34 +317,6 @@ if(isset($_POST['submit']))
               </div>
             </a>
           </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-           <a href="description.php?ID=NEW-3&category=new">
-              <div class="book-block">
-                  <div class="tag">New</div>
-                  <div class="tag-side"><img src="img/tag.png"></div>
-                  <img class="block-center img-responsive" src="img/new/3.png">
-                  <hr>
-                  Indian Family Bussiness Mantras <br>
-                  Rs 400 &nbsp
-                  <span style="text-decoration:line-through;color:#828282;"> 595 </span>
-                  <span class="label label-warning">33%</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-           <a href="description.php?ID=NEW-4&category=new">
-              <div class="book-block">
-                  <div class="tag">New</div>
-                  <div class="tag-side"><img src="img/tag.png"></div>
-                  <img class="block-center img-responsive" src="img/new/4.jpg">
-                  <hr>
-                  Kiran s SSC Mathematics Chapterwise Solutions <br>
-                  Rs 289 &nbsp
-                  <span style="text-decoration:line-through;color:#828282;"> 435 </span>
-                  <span class="label label-warning">33%</span>
-              </div>
-            </a>
-          </div>
       </div>
   </div>
 
@@ -315,19 +328,14 @@ if(isset($_POST['submit']))
               <div class="col-sm-1 col-md-1 col-lg-1">
               </div>
               <div class="col-sm-7 col-md-5 col-lg-5">
-                  <div class="row text-center">
-                      <h2>Let's Get In Touch!</h2>
-                      <hr class="primary">
-                      <p>Still Confused? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                  </div>
                   <div class="row">
                       <div class="col-md-6 text-center">
                           <span class="glyphicon glyphicon-earphone"></span>
-                          <p>123-456-6789</p>
+                          <p>9787972224/9799774711</p>
                       </div>
                       <div class="col-md-6 text-center">
                           <span class="glyphicon glyphicon-envelope"></span>
-                          <p>BookStore@gmail.com</p>
+                          <p>onlinebookstore@gmail.com</p>
                       </div>
                   </div>
               </div>
