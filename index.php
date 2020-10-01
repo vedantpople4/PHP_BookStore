@@ -81,12 +81,12 @@ if(isset($_POST['submit']))
       .modal-header {background:black;color:black;font-weight:800;}
       .modal-body{font-weight:800;}
       .modal-body ul{list-style:none;}
-      .modal .btn {background:#D67B22;color:#abf;}
-      .modal a{color:#D67B22;}
+      .modal .btn {background:#0d7377;color:#abf;}
+      .modal a{color:#0d7377;}
       .modal-backdrop {position:inherit !important;}
-       #login_button,#register_button{background:none;color:#D67B22!important;}       
+       #login_button,#register_button{background:none;color:#0d7377!important;}       
        #query_button {position:fixed;right:0px;bottom:0px;padding:10px 80px;
-                      background-color:#D67B22;color:#000;border-color:#f05f40;border-radius:2px;}
+                      background-color:#0d7377;color:#000;border-color:#f05f40;border-radius:2px;}
   	@media(max-width:767px){
         #query_button {padding: 5px 20px;}
   	}
@@ -201,7 +201,7 @@ if(isset($_POST['submit']))
           </div>
       </div>
       <div class="container-fluid" id="author">
-      <h3 style="color:#D67B22;"> POPULAR AUTHORS </h3>
+      <h3 style="color:#0d7377;"> POPULAR AUTHORS </h3>
       <div class="row">
           <div class="col-sm-5 col-md-5 col-lg-5">
               <a href="Author.php?value=Durjoy%20Datta"><img class="img-responsive center-block" src="img/popular-author/0.jpg"></a>
@@ -231,7 +231,7 @@ if(isset($_POST['submit']))
       <div class="container-fluid" id="header">
           <div class="row">
               <div class="col-md-3 col-lg-3" id="category">
-                  <div style="background:#D67B22;color:#fff;font-weight:800;border:none;padding:5px;"> The Book Shop </div>
+                  <div style="background:#0d7377;color:#fff;font-weight:800;border:none;padding:5px;"> The Book Shop </div>
                   <ul>
                       <li> <a href="Product.php?value=entrance%20exam"> Entrance Exam </a> </li>
                       <li> <a href="Product.php?value=Literature%20and%20Fiction"> Literature & Fiction </a> </li>
@@ -333,26 +333,7 @@ if(isset($_POST['submit']))
               </div>
               <div class="hidden-sm-down col-md-2 col-lg-2">
               </div>
-              <div class="col-sm-4 col-md-3 col-lg-3 text-center">
-                  <h2 style="color:#D67B22;">Follow Us At</h2>
-                  <div>
-                      <a href="https://twitter.com/strandbookstore">
-                      <img title="Twitter" alt="Twitter" src="img/social/twitter.png" width="35" height="35" />
-                      </a>
-                      <a href="https://www.linkedin.com/company/strand-book-store">
-                      <img title="LinkedIn" alt="LinkedIn" src="img/social/linkedin.png" width="35" height="35" />
-                      </a>
-                      <a href="https://www.facebook.com/strandbookstore/">
-                      <img title="Facebook" alt="Facebook" src="img/social/facebook.png" width="35" height="35" />
-                      </a>
-                      <a href="https://plus.google.com/111917722383378485041">
-                      <img title="google+" alt="google+" src="img/social/google.jpg" width="35" height="35" />
-                      </a>
-                      <a href="https://www.pinterest.com/strandbookstore/">
-                      <img title="Pinterest" alt="Pinterest" src="img/social/pinterest.jpg" width="35" height="35" />
-                      </a>
-                  </div>
-              </div>
+             
           </div>
       </div>
   </footer>
