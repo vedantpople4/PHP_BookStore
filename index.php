@@ -274,7 +274,7 @@ if(isset($_POST['submit']))
 
     <div class="container-fluid text-center" id="new">
       <div class="row">
-          <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-4">
            <a href="description.php?ID=NEW-1&category=new">
               <div class="book-block">
                   <div class="tag">New</div>
@@ -289,7 +289,7 @@ if(isset($_POST['submit']))
             </a>
           </div>
           
-          <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-4">
            <a href="description.php?ID=NEW-3&category=new">
               <div class="book-block">
                   <div class="tag">New</div>
@@ -303,7 +303,7 @@ if(isset($_POST['submit']))
               </div>
             </a>
           </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-4">
            <a href="description.php?ID=NEW-2&category=new">
               <div class="book-block">
                   <div class="tag">New</div>
